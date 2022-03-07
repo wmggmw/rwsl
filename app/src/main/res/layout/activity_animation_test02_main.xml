@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/rl_01"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:background="#22aaee" >
+
+                <ImageView
+                    android:id="@+id/iv_login_moon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_moon" />
+
+                <ImageView
+                    android:id="@+id/iv_login_build03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_build03" />
+
+                <ImageView
+                    android:id="@+id/iv_login_build01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_build01" />
+
+                <ImageView
+                    android:id="@+id/iv_login_build02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_build02" />
+
+                <ImageView
+                    android:id="@+id/iv_login_tree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_tree" />
+
+                <ImageView
+                    android:id="@+id/iv_login_tree01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_tree" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignTop="@+id/iv_login_build01"
+                    android:layout_marginLeft="46dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_car_01" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/iv_login_tree"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="59dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_car_02" />
+
+                <ImageView
+                    android:id="@+id/iv_login_packeg1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageView2"
+                    android:layout_toLeftOf="@+id/imageView2"
+                    android:src="@drawable/bm_login_packeg" />
+
+                <ImageView
+                    android:id="@+id/iv_login_packeg2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/imageView1"
+                    android:layout_alignTop="@+id/imageView2"
+                    android:src="@drawable/bm_login_packeg" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="16dp"/>
+            <RelativeLayout
+                android:id="@+id/rl_02"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:background="#22aaee" >
+
+                <ImageView
+                    android:id="@+id/iv_login_moon_copy02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_moon" />
+
+                <com.wmg.rwsl.animationTest.test1.view.TranslationImage
+                    android:id="@+id/iv_login_build03_copy02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:enter_mode="leaveToLeft"
+                    app:mills_duration="3000"
+                    app:animator_type="countDownTimer"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_build03" />
+
+                <com.wmg.rwsl.animationTest.test1.view.TranslationImage
+                    android:id="@+id/iv_login_build01_copy02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:enter_mode="enterFromRight"
+                    app:mills_duration="5000"
+                    app:animator_type="countDownTimer"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_build01" />
+
+                <com.wmg.rwsl.animationTest.test1.view.TranslationImage
+                    android:id="@+id/iv_login_build02_copy02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:enter_mode="leaveToLeft"
+                    app:mills_duration="6000"
+                    app:animator_type="countDownTimer"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_build02" />
+
+                <com.wmg.rwsl.animationTest.test1.view.TranslationImage
+                    android:id="@+id/iv_login_tree_copy02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:enter_mode="leaveToLeft"
+                    app:mills_duration="3000"
+                    app:animator_type="countDownTimer"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_tree" />
+
+                <com.wmg.rwsl.animationTest.test1.view.TranslationImage
+                    android:id="@+id/iv_login_tree01_copy02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:enter_mode="enterFromRight"
+                    app:mills_duration="3000"
+                    app:animator_type="countDownTimer"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_tree" />
+
+                <ImageView
+                    android:id="@+id/imageView1_copy02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignTop="@+id/iv_login_build01_copy02"
+                    android:layout_marginLeft="46dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_car_01" />
+
+                <ImageView
+                    android:id="@+id/imageView2_copy02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/iv_login_tree_copy02"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="59dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_car_02" />
+
+                <ImageView
+                    android:id="@+id/iv_login_packeg1_copy02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageView2_copy02"
+                    android:layout_toLeftOf="@+id/imageView2_copy02"
+                    android:src="@drawable/bm_login_packeg" />
+
+                <ImageView
+                    android:id="@+id/iv_login_packeg2_copy02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/imageView1_copy02"
+                    android:layout_alignTop="@+id/imageView2_copy02"
+                    android:src="@drawable/bm_login_packeg" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="16dp"/>
+            <RelativeLayout
+                android:id="@+id/rl_03"
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:background="#22aaee" >
+
+                <ImageView
+                    android:id="@+id/iv_login_moon_copy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_moon" />
+
+                <com.wmg.rwsl.animationTest.test1.view.TranslationImage
+                    android:id="@+id/iv_login_build03_copy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:enter_mode="leaveToLeft"
+                    app:mills_duration="3000"
+                    app:animator_type="valueAnimator"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_build03" />
+
+                <com.wmg.rwsl.animationTest.test1.view.TranslationImage
+                    android:id="@+id/iv_login_build01_copy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:enter_mode="enterFromRight"
+                    app:mills_duration="5000"
+                    app:animator_type="valueAnimator"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_build01" />
+
+                <com.wmg.rwsl.animationTest.test1.view.TranslationImage
+                    android:id="@+id/iv_login_build02_copy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:enter_mode="leaveToLeft"
+                    app:mills_duration="6000"
+                    app:animator_type="valueAnimator"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_build02" />
+
+                <com.wmg.rwsl.animationTest.test1.view.TranslationImage
+                    android:id="@+id/iv_login_tree_copy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:enter_mode="leaveToLeft"
+                    app:mills_duration="3000"
+                    app:animator_type="valueAnimator"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_tree" />
+
+                <com.wmg.rwsl.animationTest.test1.view.TranslationImage
+                    android:id="@+id/iv_login_tree01_copy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:enter_mode="enterFromRight"
+                    app:mills_duration="3000"
+                    app:animator_type="valueAnimator"
+                    android:layout_alignParentBottom="true"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_tree" />
+
+                <ImageView
+                    android:id="@+id/imageView1_copy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignTop="@+id/iv_login_build01_copy"
+                    android:layout_marginLeft="46dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_car_01" />
+
+                <ImageView
+                    android:id="@+id/imageView2_copy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/iv_login_tree_copy"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="59dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/bm_login_bg_car_02" />
+
+                <ImageView
+                    android:id="@+id/iv_login_packeg1_copy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/imageView2_copy"
+                    android:layout_toLeftOf="@+id/imageView2_copy"
+                    android:src="@drawable/bm_login_packeg" />
+
+                <ImageView
+                    android:id="@+id/iv_login_packeg2_copy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/imageView1_copy"
+                    android:layout_alignTop="@+id/imageView2_copy"
+                    android:src="@drawable/bm_login_packeg" />
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+
+</RelativeLayout>

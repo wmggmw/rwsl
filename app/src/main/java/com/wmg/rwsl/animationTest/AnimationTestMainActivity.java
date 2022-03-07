@@ -6,13 +6,13 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.wmg.rwsl.R;
 import com.wmg.rwsl.adapter.MainMenuAdapter;
 import com.wmg.rwsl.adapter.SpacesItemDecoration;
+import com.wmg.rwsl.animationTest.test2.AnimationTest02Activity;
 import com.wmg.rwsl.animationTest.test1.AnimationTest01Activity;
 import com.wmg.rwsl.data.MainMenuData;
 
@@ -49,7 +49,7 @@ public class AnimationTestMainActivity extends AppCompatActivity {
         data.onClickListener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AnimationTestMainActivity.this, AnimationTest01Activity.class));
+                startActivity(new Intent(AnimationTestMainActivity.this, AnimationTest02Activity.class));
             }
         };
         list.add(data);

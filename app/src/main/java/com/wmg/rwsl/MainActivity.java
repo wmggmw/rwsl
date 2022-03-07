@@ -9,8 +9,10 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.wmg.rwsl.adapter.MainMenuAdapter;
+import com.wmg.rwsl.adapter.SpacesItemDecoration;
 import com.wmg.rwsl.animationTest.AnimationTestMainActivity;
 import com.wmg.rwsl.data.MainMenuData;
+import com.wmg.rwsl.openglTest.OpenGLTestMainActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,8 +42,18 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         list.add(data);
+        data = new MainMenuData();
+        data.title = "OpenGL";
+        data.onClickListener = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, OpenGLTestMainActivity.class));
+            }
+        };
+        list.add(data);
         mAdapter.setData(list);
         mRv.setLayoutManager(new LinearLayoutManager(this, RecyclerView.VERTICAL, false));
+        mRv.addItemDecoration(new SpacesItemDecoration(12));
         mRv.setAdapter(mAdapter);
     }
 }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TranslationImage">
+        <attr name="enter_mode" format="enum">
+            <enum name="leaveToLeft" value="0"/>
+            <enum name="enterFromRight" value="1"/>
+        </attr>
+        <attr name="mills_duration" format="integer"/>
+        <attr name="animator_type" format="enum">
+            <enum name="countDownTimer" value="0"/>
+            <enum name="valueAnimator" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

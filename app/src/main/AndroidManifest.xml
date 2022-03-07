@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.wmg.rwsl">
 
+    <uses-permission android:name="android.permission.CAMERA"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +21,20 @@
             </intent-filter>
         </activity>
         <activity android:name=".animationTest.AnimationTestMainActivity" />
+        <activity android:name=".animationTest.test2.AnimationTest02Activity" />
         <activity android:name=".animationTest.test1.AnimationTest01Activity" />
+        <!-- OpenGL -->
+        <activity android:name=".openglTest.OpenGLTestMainActivity"/>
+        <activity android:name=".openglTest.glsurfaceview.simplepreview.SimplePreviewWithGLSurfaceViewActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".openglTest.glsurfaceview.previewrenderer.GLSurfaceViewPreviewRendererActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".openglTest.surfaceview.simplepreview.SimplePreviewWithSurfaceViewActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".openglTest.surfaceview.previewrenderer.SurfaceViewPreviewRendererActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".openglTest.nosurfaceview.NoSurfaceViewActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

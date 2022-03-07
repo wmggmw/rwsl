@@ -3,6 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/WorkSpace/Android/Github/rwsl/app/src/main/res/drawable-v24/shape_item_menu.xml" value="0.2115" />
+        <entry key="..\:/WorkSpace/Android/Github/rwsl/app/src/main/res/layout/activity_animation_test01_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkSpace/Android/Github/rwsl/app/src/main/res/layout/activity_animation_test02_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkSpace/Android/Github/rwsl/app/src/main/res/layout/activity_animation_test_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkSpace/Android/Github/rwsl/app/src/main/res/layout/activity_glsurfaceview_preview_renderer.xml" value="0.18432971014492755" />
+        <entry key="..\:/WorkSpace/Android/Github/rwsl/app/src/main/res/layout/activity_no_surfaceview.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkSpace/Android/Github/rwsl/app/src/main/res/layout/activity_opengl_test_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkSpace/Android/Github/rwsl/app/src/main/res/layout/activity_simple_preview_with_glsurfaceview.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkSpace/Android/Github/rwsl/app/src/main/res/layout/activity_simple_preview_with_surfaceview.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkSpace/Android/Github/rwsl/app/src/main/res/layout/activity_surfaceview_preview_renderer.xml" value="0.20416666666666666" />
+        <entry key="..\:/WorkSpace/Android/Github/rwsl/app/src/main/res/layout/item_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/WorkSpace/Android/Mine/rwsl/app/src/main/res/layout/activity_animation_test.xml" value="0.24114583333333334" />
         <entry key="..\:/WorkSpace/Android/Mine/rwsl/app/src/main/res/layout/activity_animation_test01_main.xml" value="0.175" />
         <entry key="..\:/WorkSpace/Android/Mine/rwsl/app/src/main/res/layout/activity_animation_test_main.xml" value="0.175" />
